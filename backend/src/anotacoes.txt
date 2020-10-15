@@ -1,0 +1,31 @@
+//Rota = Conjunto
+//Recurso = Usuário
+
+//Métodos HTTP = GET, POST, PUT, DELETE
+//GET = Buscar uma informação (Lista, item) (Método padrão do navegador)
+//POST = Criando uma informação
+//PUT = Editando uma informação
+//DELETE = Deletar uma informação
+
+//Parâmetros
+// Query Params: htttp://localhost:3333/users?search=bruno
+//console.log(request.query);
+
+// Route Params: htttp://localhost:3333/users/1 (identificar um recurso)
+//console.log(request.params);
+
+// Body: htttp://localhost:3333/users
+//console.log(request.body);
+
+// 3 TIPOS DE BANCOS DE DADOS = Driver nativo(sqlite3), Query Builder, ORM(Object Relational Maping)
+
+  //  public async up(queryRunner: QueryRunner): Promise<void> {
+        //REALIZAR ALTERAÇÕES
+        //CRIAR TABELA, CRIAR UM NOVO CAMPO, DELETAR ALGUM CAMPO
+    }
+
+ //   public async down(queryRunner: QueryRunner): Promise<void> {
+        //DESFAZER O QUE FOI FEITO NO UP
+    }
+
+}
